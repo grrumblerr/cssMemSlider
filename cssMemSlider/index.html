@@ -1,34 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="./assets/style.css">
-    <title>cssMemSlider</title>
 </head>
+
 <body>
-    <div class="slider">
 
-        <div class="slides">
-            <div id="slide-1">
-                <img src="./assets/img/1.jpg" alt="image1">
-            </div>
-            <div id="slide-2">
-                <img src="./assets/img/2.jpg" alt="image2">
-            </div>
-            <div id="slide-3">
-                <img src="./assets/img/3.jpg" alt="image3">
-            </div>
-            <div id="slide-4">
-                <img src="./assets/img/4.jpg" alt="image4">
-            </div>
-            <div id="slide-5">
-                <img src="./assets/img/5.jpg" alt="image5">
-            </div>
+    <div class="container">
+        <div class="slider">
+          <input type="radio" name="slide" id="slide1" checked />
+          <input type="radio" name="slide" id="slide2" />
+          <input type="radio" name="slide" id="slide3" />
+          <input type="radio" name="slide" id="slide4" />
+          <input type="radio" name="slide" id="slide5" />
+          <div class="slider-content">
+            <figure class="slide">
+              <img src="./assets/img/1.jpg" alt="" class="slide-img"/>
+              <figcaption class="slide-text">Text text text text</figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="./assets/img/2.jpg" alt="" class="slide-img"/>
+              <figcaption class="slide-text">Text text text text</figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="./assets/img/3.jpg" alt="" class="slide-img"/>
+              <figcaption class="slide-text">Text text text text</figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="./assets/img/4.jpg" alt="" class="slide-img"/>
+              <figcaption class="slide-text">Text text text text</figcaption>
+            </figure>
+            <figure class="slide">
+                <img src="./assets/img/5.jpg" alt="" class="slide-img"/>
+                <figcaption class="slide-text">Text text text text</figcaption>
+              </figure>
+          </div>
+          <div class="buttons">
+            <label for="slide1" id="btn1">
+              <div class="btn"></div>
+            </label>
+            <label for="slide2" id="btn2">
+              <div class="btn"></div>
+            </label>
+            <label for="slide3" id="btn3">
+              <div class="btn"></div>
+            </label>
+            <label for="slide4" id="btn4">
+              <div class="btn"></div>
+            </label>
+            <label for="slide5" id="btn5">
+              <div class="btn"></div>
+            </label>
+          </div>
         </div>
+      </div>
 
-
-    </div>
 </body>
+
 </html>
