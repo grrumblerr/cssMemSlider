@@ -43,6 +43,9 @@
     margin-bottom: 1rem;
   }
   
+  .slide-text {
+    font-family: Arial, Helvetica, sans-serif;
+  }
   .buttons {
     display: inline-flex;
     align-self: flex-end;
@@ -116,7 +119,7 @@
   @media (max-width: 47.938rem) {
     .container {
       min-width: 22.5rem;
-      height: 29rem;
+      height: 31rem;
     }
   
     .slide-text {
@@ -125,11 +128,17 @@
 
     .buttons {
       align-self: center;
-      transform: translateY(-125%);
+      transform: translateY(-230%);
     }
   
     .slide-img {
       height: 25rem;
       object-fit: contain;
+    }
+  }
+
+  @media (max-width: 29rem) {
+    .slide-text {
+      font-size: 0.9rem;
     }
   }
