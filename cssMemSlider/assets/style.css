@@ -29,7 +29,6 @@
   .slider-content {
     display: flex;
     transition: all 0.5s;
-     /* cubic-bezier(0.445, 0.05, 0.55, 0.95); */
   }
   
   .slide {
@@ -112,4 +111,21 @@
   #slide4:checked ~ .slider-content > :nth-child(4) .slide-text,
   #slide5:checked ~ .slider-content > :nth-child(5) .slide-text {
     display: inline-block;
+  }
+
+  @media (max-width: 47.938rem) {
+    .container {
+      min-width: 22.5rem;
+      height: 25rem;
+    }
+  
+    .buttons {
+      align-self: center;
+      transform: translateY(-100%);
+    }
+  
+    .slide-img {
+      height: 20rem;
+      object-fit: contain;
+    }
   }
