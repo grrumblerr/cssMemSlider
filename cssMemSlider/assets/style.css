@@ -116,6 +116,12 @@
     display: inline-block;
   }
 
+  @media (min-width: 47.938rem) {
+    .slide-text {
+      max-width: 30rem;
+    }
+  }
+
   @media (max-width: 47.938rem) {
     .container {
       min-width: 22.5rem;
